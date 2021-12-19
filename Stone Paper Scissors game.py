@@ -14,8 +14,8 @@ x=0
 for chance in win_chance:
     if chance == choices_list:
         x= 1
-print(f"you chice {game_list[a-1]}")
-print(f"computer chice {game_list[b-1]}")
+print(f"you choice {game_list[a-1]}")
+print(f"computer choice {game_list[b-1]}")
 if x ==1 :
     print("you win")
 elif a==b:
